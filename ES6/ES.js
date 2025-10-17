@@ -132,3 +132,64 @@
 //     console.log(`${key} : ${value}`);
 // }
 
+
+// Solving Problems with ES6
+
+// Example-1: 
+
+// const sum=(a,b)=>a+b;
+
+// console.log(sum(10,20));
+
+// Problem 2 — Spread Operator
+
+// const fruits = ['apple', 'banana'];
+// const moreFruits = ['orange', 'mango'];
+
+// console.log([...fruits,...moreFruits]);
+
+//  Problem 3 — Destructuring
+
+// const employee = {
+//   id: 101,
+//   name: 'Shahid',
+//   position: 'Developer'
+// };
+
+// const { id, name } = employee;
+
+// console.log(id);
+// console.log(name);
+
+
+// Problem 4 — Object.freeze and Modification
+
+// const car = { brand: 'Toyota', model: 'Corolla' };
+
+// Object.freeze(car);
+
+// car.brand = 'Honda'; // This will not change the brand
+
+// console.log(car); 
+
+// Problem 5 — Looping with Objects
+
+const student = {
+  name: 'Ahamed',
+  age: 24,
+  course: 'Web Engineering'
+};
+
+// for of
+
+// for( let [key, value] of Object.entries(student)){
+//     console.log(`
+//         ${key}, ${value}`)
+// }
+
+// for in
+
+// for(let key in student){
+//     console.log(`${key} : ${student[key]}`)
+
+// }
