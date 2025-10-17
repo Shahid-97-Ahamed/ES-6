@@ -28,41 +28,69 @@
 
 // example-1
 
-const name=['Shahid','Ahamed','Rabbi'];
+// const name=['Shahid','Ahamed','Rabbi'];
 
-const newArray=["name:",...name];
+// const newArray=["name:",...name];
 
-console.log(...newArray);
+// console.log(...newArray);
 
-// example-2
-const number=[10,20,30,40,50];
+// // example-2
+// const number=[10,20,30,40,50];
 
-console.log(Math.max(number));
-console.log(Math.max(...number));
+// console.log(Math.max(number));
+// console.log(Math.max(...number));
 
-// example-3
-const mixedArray=[1,2,3,"four",5];
+// // example-3
+// const mixedArray=[1,2,3,"four",5];
 
-console.log(...mixedArray); 
-// output: 1 2 3 four 5
+// console.log(...mixedArray); 
+// // output: 1 2 3 four 5
 
-// example-4
-const arr1=[1,2,3];
-const arr2=[4,5,6];
-const combinedArray=[...arr1,...arr2];
-console.log(...combinedArray);
+// // example-4
+// const arr1=[1,2,3];
+// const arr2=[4,5,6];
+// const combinedArray=[...arr1,...arr2];
+// console.log(...combinedArray);
 
-// output: 1 2 3 4 5 6
+// // output: 1 2 3 4 5 6
 
-// example-5
-const example5Array=[1,2,3,4,5,6];
-console.log(...example5Array);
+// // example-5
+// const example5Array=[1,2,3,4,5,6];
+// console.log(...example5Array);
 
-// output : 1 2 3 4 5 6
+// // output : 1 2 3 4 5 6
 
-// example-6
-function sum(x,y,z){
-    return x+y+z;
-}
-const numbers=[1,2,3];
-console.log(sum(...numbers));
+// // example-6
+// function sum(x,y,z){
+//     return x+y+z;
+// }
+// const numbers=[1,2,3];
+// console.log(sum(...numbers));
+
+// Distructuring Assignment
+
+// // example-1
+
+// const person={
+//     name:'Shahid Ahamed',
+//     age:24,
+//     profession:'Web Developer'
+// };   
+
+// const {name,age,profession}=person;
+
+// console.log(name);
+// console.log(age);
+// console.log(profession);
+
+// // example-2
+
+const colors=['Red',{color:'Pink'},'Green','Blue'];
+
+const [firstColor,secondColor,thirdColor,fourthColor]=colors;
+
+console.log(firstColor);
+console.log(secondColor);
+console.log(thirdColor);
+console.log(fourthColor);
+
