@@ -85,12 +85,32 @@
 
 // // example-2
 
-const colors=['Red',{color:'Pink'},'Green','Blue'];
+// const colors=['Red',{color:'Pink'},'Green','Blue'];
 
-const [firstColor,secondColor,thirdColor,fourthColor]=colors;
+// const [firstColor,secondColor,thirdColor,fourthColor]=colors;
 
-console.log(firstColor);
-console.log(secondColor);
-console.log(thirdColor);
-console.log(fourthColor);
+// console.log(firstColor);
+// console.log(secondColor);
+// console.log(thirdColor);
+// console.log(fourthColor);
+
+// New Example-3
+
+// const student={
+//     name:'Shahid Ahamed',
+//     age:24,     
+// }
+
+
+// // Object.seal(student);
+// Object.freeze(student);
+
+// student.status='Active';
+// student.name='Rabbi Ahamed';
+
+
+// console.log(student);
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+// console.log(Object.entries(student));
 
