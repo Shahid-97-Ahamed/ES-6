@@ -114,3 +114,21 @@
 // console.log(Object.values(student));
 // console.log(Object.entries(student));
 
+
+// Object with for of and for in loop
+
+// const student={
+//     name:'Shahid Ahamed',
+//     age:24,
+//     profession:'Web Developer'
+// };
+
+// // for (let key in student){
+// //     console.log(`${key} : ${student[key]}`);
+// // }
+
+
+// for (let [key,value] of Object.entries(student)){
+//     console.log(`${key} : ${value}`);
+// }
+
