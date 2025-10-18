@@ -238,3 +238,23 @@ const student = {
 
 // // console.log(newFriends);  
 
+// const products=[
+//     {name:'Laptop',price:45000,brand:'Lenovo',color:'Silver'},
+//     {name:'Phone',price:15000,brand:'Realme',color:'Black'},
+//     {name:'Tablet',price:25000,brand:'Samsung',color:'White'},
+//     {name:'Monitor',price:30000,brand:'LG',color:'Black'},
+//     {name:'Keyboard',price:2000,brand:'Logitech',color:'Gray'},
+// ];    
+
+// const expensive=products.filter(product=>product.price>20000);
+
+// console.log(expensive);
+
+// products.forEach(product => {
+//       console.log(product);
+// });
+
+// const product =products.find(product=>product.name==='Tablet');
+
+// console.log(product);
+
