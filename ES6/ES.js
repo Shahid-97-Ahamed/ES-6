@@ -214,3 +214,17 @@ const student = {
 // // bracket notation
 
 // console.log(person['profession']);
+
+// Array-Map
+
+// const numbers=[158,254,3454,485,5774];
+
+// // const newArray=numbers.map(digit=>digit+1);  // Array-Map
+// const newArray=numbers.map(digit=>{
+//     return digit+1;
+// });  // Array-Map
+
+// const filteredArray=numbers.filter(digit=>digit>500); // Array-Filter
+
+// console.log(filteredArray);
+// console.log(newArray);
