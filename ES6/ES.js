@@ -193,3 +193,24 @@ const student = {
 //     console.log(`${key} : ${student[key]}`)
 
 // }
+
+// dot Notation vs Bracket Notation
+
+// dot notation
+
+// const person={
+//     name:'Shahid Ahamed',
+//     age:24,
+//     profession:'Web Developer',
+//     status:{
+//         married:'Single',
+//         citizen:'Bangladeshi',
+//         fatherName:'Nur Nabi'
+//     }
+// };
+
+// // console.log(person.status?.village);
+
+// // bracket notation
+
+// console.log(person['profession']);
