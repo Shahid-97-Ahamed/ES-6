@@ -228,3 +228,13 @@ const student = {
 
 // console.log(filteredArray);
 // console.log(newArray);
+
+// const friends=['Shahid','Ahamed','Rabbi','Khan','Rafiq'];
+
+// const newFriends =friends.map((friendsName,index)=>{
+//   // return friendsName;
+//   console.log(index, friendsName);
+// });
+
+// // console.log(newFriends);  
+
