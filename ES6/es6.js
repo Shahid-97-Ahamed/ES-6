@@ -258,3 +258,92 @@ const student = {
 
 // console.log(product);
 
+
+// class Person{
+//   constructor(name,age){
+//     this.name=name;
+//     this.age=age;
+//   }
+
+//   salam(){
+//     console.log("Assalamu Alaikum");   // this method use for super class
+//   }
+// }
+
+// class Hena extends Person{
+//   constructor(name,age){
+//     super(name,age);
+//   }
+// } 
+
+// const ha =new Hena('Ahamed',26);
+
+// // console.log(ha);
+
+// ha.salam();
+
+  // const hena = new Person('Shahid Ahamed',24);
+
+  // console.log(hena);
+
+
+  //prmetive data type and non prmetive data type
+
+  // 1. Prmetive data type
+
+  // const name ='Shahid';
+
+  // const anotherName=name;
+
+  
+  // console.log(anotherName);
+
+  // anotherName='Ahamed';
+
+  //non prmetive data type
+   
+  // const person={
+  //   name:'Shahid',
+  //  };
+
+  //   const anotherPerson=person;
+  //   anotherPerson.name='Ahamed';
+  //   console.log(anotherPerson);
+
+  // Null and undefined
+
+// const name ="Shahid";
+
+// console.log(typeof name)
+
+//1. Parameter nah deya call korle undefined dekhabe
+
+// function sum(num1,num2){
+//   console.log(num1,num2);
+// }
+
+// sum()
+
+//2. Jodi perameter na pathai tahole  undefined dekhabe
+
+// function sum(num1,num2){
+//   console.log(num1,num2);
+// }
+
+// sum(10)
+
+//3. funtion theka return na korle undefined dekhabe
+// function sum(num1,num2){
+//   console.log(num1,num2);
+// }
+
+// const result=sum(10,20);
+// console.log(result);
+
+// //4. Jodi return er por kichu na deya hoy tahole undefined dekhabe
+// function sum(num1,num2){
+//      return
+// }
+
+// const result=sum(10,20);
+// console.log(result);
