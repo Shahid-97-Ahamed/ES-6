@@ -447,3 +447,162 @@ const student = {
 
 // sayHello(); // again hoisting er pora kaj korbe
 
+//about closure
+
+// function sum(){
+//   let num=0;
+
+//   return function(){
+//     num++;
+//     console.log(num);
+//   }   
+// }
+
+
+// const result=sum();
+
+// result();
+// result();
+// result();
+// result();
+// result();
+
+
+// function outer() {
+//   let name = "Shahid";  // outer function এর variable
+
+//   function inner() {
+     
+
+//     console.log("Hello " + name);  // inner function name ব্যবহার করছে
+//   }
+//  return inner;
+// }
+
+// const myFunc = outer();
+// myFunc();  // Output: Hello Shahid
+
+
+//example closure
+
+// function counter() {
+//   let count = 0;
+
+//   return function() {
+//     count++;
+//     return count;
+//   }
+// }
+
+// const increment = counter();
+
+// console.log(increment()); // 1
+// console.log(increment()); // 2
+
+
+//callback function
+
+// function ghotok(patri){
+//   patri('Shahid',"future developer");
+// }
+
+// const patri=function(name, occupation){
+//   console.log('Hello '+ name + ' your occupation is: ' + occupation);
+  
+// } 
+// ghotok(patri);
+
+// function showMessage() {
+//   console.log("3 seconds later...");
+// }
+
+// setTimeout(showMessage, 3000);
+
+// function calculate(a, b, callback) {
+//   console.log("Result:", callback(a, b));
+// }
+
+// // আলাদা আলাদা callback functions
+// function add(x, y) {
+//   return x + y;
+// }
+
+// function multiply(x, y) {
+//   return x * y;
+// }
+
+// calculate(5, 3, add);      // Output: Result: 8
+// calculate(5, 3, multiply); // Output: Result: 15
+
+
+// function sum(a,b,c,d){
+//   //part-1
+//   // console.log(arguments);
+
+  
+
+//   //part-2
+//   // for(let i=0; i<arguments.length; i++){
+//   //   console.log(arguments[i]);
+//   // }
+
+//   //part-3
+
+//   // const newArg=[...arguments]
+//   // console.log(newArg);
+
+
+// }
+
+// console.log(typeof sum);
+// console.log(sum.length);
+// sum(10,20,30)
+
+// const person={
+//   name:'Shahid Ahamed',
+//   age:24,
+//   profession:'Web Developer'
+// };
+//   function sum(boyos){
+//     boyos.age=5;
+//   }
+
+
+// sum(person);
+
+// console.log(person);
+
+//pass by value vs pass by reference
+
+//pass by value
+
+// let num1=10;
+// let num2=num1;  
+// num2=20;
+
+// console.log(num1);
+
+// //pass by reference
+
+// const person={
+//   name:'Shahid Ahamed',
+//   age:24,
+//   profession:'Web Developer'
+// };
+//   function updatePerson(boyos){
+//     boyos.age=30;
+//   }
+// updatePerson(person);
+
+// console.log(person);
+
+// Pre Increment, Post Increment, Pre decrement, Post decrement
+
+// let age=10; 
+
+// // console.log(age++);
+// // console.log(age);
+// console.log(++age);
+// console.log(--age);
+
+
