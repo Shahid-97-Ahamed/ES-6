@@ -347,3 +347,103 @@ const student = {
 
 // const result=sum(10,20);
 // console.log(result);
+
+
+//equlity operator
+
+// // example-1:  == vs ===
+
+//double equal
+
+// const num1=10;
+// const num2='10';
+
+// if(num1==num2){
+//   console.log('value is equal');
+// }
+// else{
+//   console.log('value is not equal');
+// }
+
+//triple equal
+// const num1=10;
+// const num2='10';
+
+// if(num1===num2){
+//   console.log('value is equal');
+// }
+// else{
+//   console.log('value is not equal');
+// }
+
+// const num1=0;
+// const num2=true;
+
+// if(num1==num2){
+//   console.log('value is equal');
+// } else {
+//   console.log('value is not equal');
+// }
+
+// const num1=[];
+// const num2=num1;
+
+// if(num1==num2){
+//   console.log('value is equal');
+// } else {
+//   console.log('value is not equal');
+// }
+
+// const num1=[];
+// const num2=[];
+
+// if(5*"2"===10){
+//   console.log('value is equal');
+// }else {
+//   console.log('value is not equal');
+// }
+
+
+//type conversion
+
+//they have two types
+//1. Implicit type conversion
+//2. Explicit type conversion
+
+//Explicit type conversion
+
+
+// let num1='100';
+
+// let num2=Number(num1); //string to number
+
+// console.log(num2);
+
+
+// let num3=100;
+
+// let num4=String(num3); //number to string
+
+// console.log(num4);
+
+// Block scope global scope simple understanding of Hoisting
+
+// function sum(num1,num2){
+// //        const total=num1+num2;
+// //        console.log(total);
+// // }
+
+// // // console.log(total);  //error because function er bahire total ke call kora jabe na korla daka jabe na
+
+// // sum(10,20);
+
+//function hoisting
+
+// sayHello(); // again hoisting er aga kaj korbe
+
+// function sayHello() {
+//   console.log("Hello!");
+// }
+
+// sayHello(); // again hoisting er pora kaj korbe
+
