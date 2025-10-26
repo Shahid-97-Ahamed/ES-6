@@ -4,12 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ES</title>
+    <style>
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 8px;
+        }
+
+        .card h3 {
+            margin: 8px 0;
+            font-size: 1.2em;
+        }
+
+        .card p {
+            margin: 4px 0;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <h1 id="test">ES6</h1>
-
+<!-- 
     <button onclick="loadData()">Load</button> <br>
     <button onclick="loadUserData()">DataUser</button>
+
+    <br>
+
+    <div id="user-container">
+
+    </div> -->
+
+    <div id="cardContainer" class="card-container">
+
+    </div>
+
+    <!-- <button onclick="moreData()">More DataUser</button> -->
     <script src="ES6/es6.js ">
     </script>
     <script src="ES6/jeson.js"></script>
